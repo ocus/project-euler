@@ -1,0 +1,1 @@
+print(sum(map(int, str(reduce(lambda x,y: x*y, range(100, 0, -1))))))
